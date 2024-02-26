@@ -70,6 +70,9 @@ To use this project, follow these steps:
    ![post](https://github.com/Shahariar-Rokon/ASP.NET-MVC-API-Hotel-Reservation/assets/116648090/7a3943d2-0d19-4e54-98ee-2d59f623e54a)
  - Next step is to post. Select **POST** in the postman and click send.
  - Now make a **GET** request to test the post.
+ - You can also **PUT** a request to update a data. Simply, add the id that you want to update at the end of the url for example, `https://localhost:44302/api/Reservation/6` and send the data according to the format that I explained in the **POST** method. Also 
+   don't forget to select the **PUT** method in the postman. Now click **SEND**.
+   ![put](https://github.com/Shahariar-Rokon/ASP.NET-MVC-API-Hotel-Reservation/assets/116648090/c91cd7d4-3be1-4aff-b01f-29e1e893e94d)
  - Note that the service is prepopulated and the token has a time limit. If token expires, you need to get another token. 
 4. **Explore the code**: You can open the project in Visual Studio 2022 and explore the code. The project consists of **REST** api.
 
